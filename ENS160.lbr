@@ -113,29 +113,34 @@
 <wire x1="1.55" y1="-1.6" x2="1.2" y2="-1.6" width="0.1" layer="21"/>
 <text x="-1.6256" y="1.7272" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.7526" y="-2.3876" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
 </package>
 </packages>
 <symbols>
 <symbol name="ENS160">
-<pin name="VDD" x="-15.24" y="5.08" length="short"/>
-<pin name="VDDIO" x="-15.24" y="2.54" length="short"/>
-<pin name="GND@8" x="-15.24" y="-2.54" length="short"/>
+<description>&lt;h3&gt;ENS160&lt;/h3&gt;</description>
+<pin name="VDD" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="VDDIO" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<pin name="GND@8" x="-12.7" y="-2.54" length="short" direction="pwr"/>
 <pin name="!INT!" x="15.24" y="5.08" length="short" rot="R180"/>
 <pin name="!CS!" x="15.24" y="2.54" length="short" rot="R180"/>
 <pin name="CIPO/SDA" x="15.24" y="0" length="short" rot="R180"/>
 <pin name="COPI/ADDR" x="15.24" y="-2.54" length="short" rot="R180"/>
 <pin name="SCLK/SCL" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="GND@9" x="-15.24" y="-5.08" length="short"/>
-<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<pin name="GND@9" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<text x="-12.7" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-12.7" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ENS-160">
+<deviceset name="ENS-160" prefix="U">
 <description>&lt;h3&gt;ScioSense Indoor Air Quality Sensor - ENS160 &lt;/h3&gt;
 
 &lt;p&gt;The ENS160 is a digital multi-gas sensor solution, based on metal oxide (MOX) technology
