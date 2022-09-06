@@ -23523,20 +23523,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
 <symbol name="DGND">
 <description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<text x="0" y="-0.254" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="1.8V">
 <description>&lt;h3&gt;1.8V Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="1.8V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -23946,8 +23946,8 @@ Standard 0402 sized pads with cathode pin indicator.
 <pin name="GND@8" x="-12.7" y="-2.54" length="short" direction="pwr"/>
 <pin name="!INT!" x="15.24" y="5.08" length="short" rot="R180"/>
 <pin name="!CS!" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="POCI/SDA" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="PICO/ADDR" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="PICO/SDA" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="POCI/ADDR" x="15.24" y="-2.54" length="short" rot="R180"/>
 <pin name="SCLK/SCL" x="15.24" y="-5.08" length="short" rot="R180"/>
 <pin name="GND@9" x="-12.7" y="-5.08" length="short" direction="pwr"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -23980,8 +23980,8 @@ chip. &lt;/p&gt;</description>
 <connect gate="G$1" pin="!INT!" pad="P6"/>
 <connect gate="G$1" pin="GND@8" pad="P8"/>
 <connect gate="G$1" pin="GND@9" pad="P9"/>
-<connect gate="G$1" pin="PICO/ADDR" pad="P1"/>
-<connect gate="G$1" pin="POCI/SDA" pad="P3"/>
+<connect gate="G$1" pin="PICO/SDA" pad="P1"/>
+<connect gate="G$1" pin="POCI/ADDR" pad="P3"/>
 <connect gate="G$1" pin="SCLK/SCL" pad="P2"/>
 <connect gate="G$1" pin="VDD" pad="P4"/>
 <connect gate="G$1" pin="VDDIO" pad="P5"/>
@@ -25119,9 +25119,9 @@ VDDIO Range: 1.71V - 3.6V</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="PICO/ADDR" class="0">
+<net name="POCI/ADDR" class="0">
 <segment>
-<pinref part="U24" gate="G$1" pin="PICO/ADDR"/>
+<pinref part="U24" gate="G$1" pin="POCI/ADDR"/>
 <wire x1="71.12" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <label x="71.12" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -25164,9 +25164,9 @@ VDDIO Range: 1.71V - 3.6V</text>
 <label x="81.28" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="POCI/SDA" class="0">
+<net name="PICO/SDA" class="0">
 <segment>
-<pinref part="U24" gate="G$1" pin="POCI/SDA"/>
+<pinref part="U24" gate="G$1" pin="PICO/SDA"/>
 <wire x1="71.12" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 <label x="71.12" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
