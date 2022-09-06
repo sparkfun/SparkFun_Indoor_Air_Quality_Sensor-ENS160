@@ -23980,8 +23980,8 @@ chip. &lt;/p&gt;</description>
 <connect gate="G$1" pin="!INT!" pad="P6"/>
 <connect gate="G$1" pin="GND@8" pad="P8"/>
 <connect gate="G$1" pin="GND@9" pad="P9"/>
-<connect gate="G$1" pin="PICO/ADDR" pad="P3"/>
-<connect gate="G$1" pin="POCI/SDA" pad="P1"/>
+<connect gate="G$1" pin="PICO/ADDR" pad="P1"/>
+<connect gate="G$1" pin="POCI/SDA" pad="P3"/>
 <connect gate="G$1" pin="SCLK/SCL" pad="P2"/>
 <connect gate="G$1" pin="VDD" pad="P4"/>
 <connect gate="G$1" pin="VDDIO" pad="P5"/>
@@ -24606,7 +24606,7 @@ pull-up resistors.</text>
 <wire x1="86.36" y1="68.58" x2="172.72" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="172.72" y1="68.58" x2="248.92" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="86.36" y1="185.42" x2="86.36" y2="68.58" width="0.2032" layer="97" style="longdash"/>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="210.82" y="177.8" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
 <text x="220.98" y="93.98" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
