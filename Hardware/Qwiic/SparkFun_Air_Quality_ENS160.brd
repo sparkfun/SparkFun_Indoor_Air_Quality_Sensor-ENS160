@@ -6386,10 +6386,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-00868" x="17.145" y="9.906" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="17.145" y="10.668" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="0603" value="100k" x="17.145" y="17.145" smashed="yes">
+<element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="17.145" y="17.145" smashed="yes">
 <attribute name="NAME" x="17.145" y="17.907" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07828" x="17.145" y="17.145" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="17.145" y="16.383" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="17.145" y="17.145" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="10k" x="17.145" y="16.383" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603" value="10k" x="17.145" y="8.382" smashed="yes">
 <attribute name="NAME" x="17.145" y="9.144" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
