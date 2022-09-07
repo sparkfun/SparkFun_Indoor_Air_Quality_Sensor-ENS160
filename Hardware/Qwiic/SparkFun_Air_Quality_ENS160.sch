@@ -22941,6 +22941,207 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="10KOHM" prefix="R">
+<description>&lt;h3&gt;10kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09435"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12183"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/6W-5%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ-1/6W-5%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/6W-5%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08375"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-00824"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14241"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-14241" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/10W-0.1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-16147" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="100KOHM" prefix="R">
 <description>&lt;h3&gt;100kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -24666,7 +24867,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
-<part name="U24" library="ENS160" deviceset="ENS-160" device=""/>
+<part name="U2" library="ENS160" deviceset="ENS-160" device=""/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_AP2127" device="K-1.8V" value="AP2127K-1.8V"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -24679,9 +24880,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R5" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -24689,8 +24888,8 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="ADDR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
@@ -24817,7 +25016,7 @@ VDDIO Range: 1.71V - 3.6V</text>
 <instance part="FD3" gate="G$1" x="241.3" y="27.94" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="243.84" y="27.94" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="180.34" y="40.64" smashed="yes"/>
-<instance part="U24" gate="G$1" x="43.18" y="142.24" smashed="yes">
+<instance part="U2" gate="G$1" x="43.18" y="142.24" smashed="yes">
 <attribute name="NAME" x="33.02" y="150.368" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="33.02" y="132.08" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -24861,19 +25060,12 @@ VDDIO Range: 1.71V - 3.6V</text>
 <instance part="GND5" gate="1" x="27.94" y="129.54" smashed="yes">
 <attribute name="VALUE" x="27.94" y="129.286" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="60.96" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.182" y="154.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="62.992" y="154.94" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R6" gate="G$1" x="60.96" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.436" y="155.194" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="63.246" y="155.194" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="68.58" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.056" y="155.194" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="70.866" y="155.194" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY9" gate="G$1" x="60.96" y="162.56" smashed="yes">
+<instance part="SUPPLY10" gate="G$1" x="60.96" y="162.56" smashed="yes">
 <attribute name="VALUE" x="60.96" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY10" gate="G$1" x="68.58" y="162.56" smashed="yes">
-<attribute name="VALUE" x="68.58" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="J1" x="17.78" y="20.32" smashed="yes">
 <attribute name="VALUE" x="12.7" y="10.414" size="1.778" layer="96" font="vector"/>
@@ -24953,10 +25145,10 @@ VDDIO Range: 1.71V - 3.6V</text>
 <wire x1="149.86" y1="121.92" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U24" gate="G$1" pin="GND@8"/>
+<pinref part="U2" gate="G$1" pin="GND@8"/>
 <wire x1="30.48" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="139.7" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U24" gate="G$1" pin="GND@9"/>
+<pinref part="U2" gate="G$1" pin="GND@9"/>
 <wire x1="27.94" y1="137.16" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
 <junction x="27.94" y="137.16"/>
@@ -25020,7 +25212,7 @@ VDDIO Range: 1.71V - 3.6V</text>
 </segment>
 <segment>
 <wire x1="15.24" y1="149.86" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U24" gate="G$1" pin="VDDIO"/>
+<pinref part="U2" gate="G$1" pin="VDDIO"/>
 <wire x1="15.24" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -25028,13 +25220,8 @@ VDDIO Range: 1.71V - 3.6V</text>
 <junction x="15.24" y="144.78"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="162.56" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="162.56" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="162.56" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -25075,13 +25262,9 @@ VDDIO Range: 1.71V - 3.6V</text>
 </net>
 <net name="!INT!" class="0">
 <segment>
-<pinref part="U24" gate="G$1" pin="!INT!"/>
-<wire x1="60.96" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="149.86" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
-<junction x="60.96" y="147.32"/>
-<label x="71.12" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="!INT!"/>
+<wire x1="63.5" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
+<label x="63.5" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
@@ -25100,7 +25283,7 @@ VDDIO Range: 1.71V - 3.6V</text>
 <pinref part="SUPPLY5" gate="G$1" pin="1.8V"/>
 </segment>
 <segment>
-<pinref part="U24" gate="G$1" pin="VDD"/>
+<pinref part="U2" gate="G$1" pin="VDD"/>
 <wire x1="22.86" y1="149.86" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="1.8V"/>
@@ -25121,9 +25304,9 @@ VDDIO Range: 1.71V - 3.6V</text>
 </net>
 <net name="POCI/ADDR" class="0">
 <segment>
-<pinref part="U24" gate="G$1" pin="POCI/ADDR"/>
-<wire x1="71.12" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
-<label x="71.12" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="POCI/ADDR"/>
+<wire x1="63.5" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<label x="63.5" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J1" pin="5"/>
@@ -25138,9 +25321,9 @@ VDDIO Range: 1.71V - 3.6V</text>
 </net>
 <net name="SCLK/SCL" class="0">
 <segment>
-<pinref part="U24" gate="G$1" pin="SCLK/SCL"/>
-<wire x1="71.12" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
-<label x="71.12" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="SCLK/SCL"/>
+<wire x1="63.5" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
+<label x="63.5" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
@@ -25166,9 +25349,9 @@ VDDIO Range: 1.71V - 3.6V</text>
 </net>
 <net name="PICO/SDA" class="0">
 <segment>
-<pinref part="U24" gate="G$1" pin="PICO/SDA"/>
-<wire x1="71.12" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
-<label x="71.12" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PICO/SDA"/>
+<wire x1="63.5" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
+<label x="63.5" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
@@ -25194,13 +25377,13 @@ VDDIO Range: 1.71V - 3.6V</text>
 </net>
 <net name="!CS!" class="0">
 <segment>
-<pinref part="U24" gate="G$1" pin="!CS!"/>
-<wire x1="71.12" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="!CS!"/>
+<wire x1="63.5" y1="144.78" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="149.86" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
-<junction x="68.58" y="144.78"/>
-<label x="71.12" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="60.96" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="149.86" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
+<junction x="60.96" y="144.78"/>
+<label x="63.5" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
