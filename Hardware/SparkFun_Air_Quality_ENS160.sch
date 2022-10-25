@@ -24798,12 +24798,15 @@ VDDIO Range: 1.71V - 3.6V</text>
 <text x="45.72" y="83.82" size="1.778" layer="97" font="vector" align="center">OPEN</text>
 <text x="66.04" y="88.9" size="1.778" layer="97" font="vector" align="center">0x52</text>
 <text x="66.04" y="93.98" size="1.778" layer="97" font="vector" align="center">0x53 (Default)</text>
-<text x="66.04" y="83.82" size="1.778" layer="97" font="vector" align="center">SPI</text>
+<text x="66.04" y="83.82" size="1.778" layer="97" font="vector" align="center">Undefined</text>
 <wire x1="35.56" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="53.34" y1="99.06" x2="52.578" y2="99.822" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="53.34" y1="99.06" x2="52.578" y2="98.298" width="0.1524" layer="97" style="dashdot"/>
 <text x="55.88" y="78.74" size="1.778" layer="97" font="vector" align="center">7-bit Unshifted</text>
 <text x="129.54" y="172.72" size="1.778" layer="97" font="vector" align="center">Input Range: 2.6V - 6V</text>
+<text x="38.1" y="104.14" size="1.27" layer="97" font="vector">Leave at VDD or
+OPEN for SPI
+Operation.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
