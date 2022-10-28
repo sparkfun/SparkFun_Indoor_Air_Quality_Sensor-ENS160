@@ -24001,15 +24001,15 @@ Standard 0402 sized pads with cathode pin indicator.
 <symbols>
 <symbol name="ENS160">
 <description>&lt;h3&gt;ENS160&lt;/h3&gt;</description>
-<pin name="VDD" x="-12.7" y="5.08" length="short" direction="pwr"/>
-<pin name="VDDIO" x="-12.7" y="2.54" length="short" direction="pwr"/>
-<pin name="GND@8" x="-12.7" y="-2.54" length="short" direction="pwr"/>
-<pin name="!INT!" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="!CS!" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="PICO/SDA" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="POCI/ADDR" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="SCLK/SCL" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="GND@9" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="VDD" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="VDDIO" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@8" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="!INT!" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="!CS!" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PICO/SDA" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="POCI/ADDR" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SCLK/SCL" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="GND@9" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
