@@ -23938,124 +23938,6 @@ Standard 0402 sized pads with cathode pin indicator.
 </deviceset>
 </devicesets>
 </library>
-<library name="ENS160">
-<packages>
-<package name="LGA-9">
-<description>&lt;h3&gt;LGA-9&lt;/h3&gt;
-&lt;p&gt;Mechanical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pad Size: .9mm x .85mm &lt;/li&gt;
-&lt;li&gt;Pin count: 9 &lt;/li&gt;
-&lt;li&gt;Pin pitch: 1.05mm&lt;/li&gt;
-&lt;li&gt;Package Size: 3mm x 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-7-ENS160-Datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.6" y1="1.55" x2="-1.6" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-1.6" x2="1.55" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="1.55" y1="-1.6" x2="1.55" y2="1.55" width="0.1" layer="51"/>
-<wire x1="1.55" y1="1.55" x2="-1.6" y2="1.55" width="0.1" layer="51"/>
-<circle x="-1.87" y="1.905" radius="0.25164375" width="0" layer="21"/>
-<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<rectangle x1="-1.535" y1="0.605" x2="-0.635" y2="1.455" layer="29"/>
-<rectangle x1="-1.535" y1="-0.445" x2="-0.635" y2="0.405" layer="29"/>
-<rectangle x1="-1.535" y1="-1.495" x2="-0.635" y2="-0.645" layer="29"/>
-<rectangle x1="-0.485" y1="0.605" x2="0.415" y2="1.455" layer="29"/>
-<rectangle x1="-0.485" y1="-0.445" x2="0.415" y2="0.405" layer="29"/>
-<rectangle x1="-0.485" y1="-1.495" x2="0.415" y2="-0.645" layer="29"/>
-<rectangle x1="0.565" y1="0.605" x2="1.465" y2="1.455" layer="29"/>
-<rectangle x1="0.565" y1="-0.445" x2="1.465" y2="0.405" layer="29"/>
-<rectangle x1="0.565" y1="-1.495" x2="1.465" y2="-0.645" layer="29"/>
-<rectangle x1="-1.48" y1="0.65" x2="-0.68" y2="1.41" layer="31"/>
-<rectangle x1="-1.48" y1="-0.4" x2="-0.68" y2="0.36" layer="31"/>
-<rectangle x1="-1.48" y1="-1.45" x2="-0.68" y2="-0.69" layer="31"/>
-<rectangle x1="-0.43" y1="0.65" x2="0.37" y2="1.41" layer="31"/>
-<rectangle x1="-0.43" y1="-0.4" x2="0.37" y2="0.36" layer="31"/>
-<rectangle x1="-0.43" y1="-1.45" x2="0.37" y2="-0.69" layer="31"/>
-<rectangle x1="0.62" y1="0.65" x2="1.42" y2="1.41" layer="31"/>
-<rectangle x1="0.62" y1="-0.4" x2="1.42" y2="0.36" layer="31"/>
-<rectangle x1="0.62" y1="-1.45" x2="1.42" y2="-0.69" layer="31"/>
-<wire x1="-1.6" y1="1.2" x2="-1.6" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="1.55" x2="-1.25" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.25" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
-<wire x1="1.2" y1="1.55" x2="1.55" y2="1.55" width="0.1" layer="21"/>
-<wire x1="1.55" y1="1.55" x2="1.55" y2="1.2" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.25" x2="1.55" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.6" x2="1.2" y2="-1.6" width="0.1" layer="21"/>
-<text x="-1.6256" y="1.7272" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
-<text x="-1.7526" y="-2.3876" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ENS160">
-<description>&lt;h3&gt;ENS160&lt;/h3&gt;</description>
-<pin name="VDD" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="VDDIO" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="GND@8" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="!INT!" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="!CS!" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="PICO/SDA" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="POCI/ADDR" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SCLK/SCL" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="GND@9" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-10.16" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ENS-160" prefix="U">
-<description>&lt;h3&gt;ScioSense Indoor Air Quality Sensor - ENS160 &lt;/h3&gt;
-
-&lt;p&gt;The ENS160 is a digital multi-gas sensor solution, based on metal oxide (MOX) technology
-with four sensor elements.
-The independent hotplate control allows the detection of a wide range of volatile organic
-compounds (VOCs) including ethanol, toluene, hydrogen and oxidizing gases with superior
-sensitivity. The ENS160 supports intelligent algorithms to process raw sensor measurements
-on-chip. These algorithms calculate CO2-equivalents, TVOC, air quality indices (AQIs) and
-perform humidity and temperature compensation, as well as baseline management, all on
-chip. &lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="ENS160" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LGA-9">
-<connects>
-<connect gate="G$1" pin="!CS!" pad="P7"/>
-<connect gate="G$1" pin="!INT!" pad="P6"/>
-<connect gate="G$1" pin="GND@8" pad="P8"/>
-<connect gate="G$1" pin="GND@9" pad="P9"/>
-<connect gate="G$1" pin="PICO/SDA" pad="P1"/>
-<connect gate="G$1" pin="POCI/ADDR" pad="P3"/>
-<connect gate="G$1" pin="SCLK/SCL" pad="P2"/>
-<connect gate="G$1" pin="VDD" pad="P4"/>
-<connect gate="G$1" pin="VDDIO" pad="P5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-17100" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-IC-Power">
 <description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
 In this library you'll find anything that has to do with power delivery, or making power supplies.
@@ -24688,6 +24570,137 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LGA-9">
+<description>&lt;h3&gt;LGA-9&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: .9mm x .85mm &lt;/li&gt;
+&lt;li&gt;Pin count: 9 &lt;/li&gt;
+&lt;li&gt;Pin pitch: 1.05mm&lt;/li&gt;
+&lt;li&gt;Package Size: 3mm x 3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-7-ENS160-Datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-1.6" y1="1.55" x2="-1.6" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.6" x2="1.55" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-1.6" x2="1.55" y2="1.55" width="0.1" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="-1.6" y2="1.55" width="0.1" layer="51"/>
+<circle x="-1.87" y="1.905" radius="0.25164375" width="0" layer="21"/>
+<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<rectangle x1="-1.535" y1="0.605" x2="-0.635" y2="1.455" layer="29"/>
+<rectangle x1="-1.535" y1="-0.445" x2="-0.635" y2="0.405" layer="29"/>
+<rectangle x1="-1.535" y1="-1.495" x2="-0.635" y2="-0.645" layer="29"/>
+<rectangle x1="-0.485" y1="0.605" x2="0.415" y2="1.455" layer="29"/>
+<rectangle x1="-0.485" y1="-0.445" x2="0.415" y2="0.405" layer="29"/>
+<rectangle x1="-0.485" y1="-1.495" x2="0.415" y2="-0.645" layer="29"/>
+<rectangle x1="0.565" y1="0.605" x2="1.465" y2="1.455" layer="29"/>
+<rectangle x1="0.565" y1="-0.445" x2="1.465" y2="0.405" layer="29"/>
+<rectangle x1="0.565" y1="-1.495" x2="1.465" y2="-0.645" layer="29"/>
+<rectangle x1="-1.48" y1="0.65" x2="-0.68" y2="1.41" layer="31"/>
+<rectangle x1="-1.48" y1="-0.4" x2="-0.68" y2="0.36" layer="31"/>
+<rectangle x1="-1.48" y1="-1.45" x2="-0.68" y2="-0.69" layer="31"/>
+<rectangle x1="-0.43" y1="0.65" x2="0.37" y2="1.41" layer="31"/>
+<rectangle x1="-0.43" y1="-0.4" x2="0.37" y2="0.36" layer="31"/>
+<rectangle x1="-0.43" y1="-1.45" x2="0.37" y2="-0.69" layer="31"/>
+<rectangle x1="0.62" y1="0.65" x2="1.42" y2="1.41" layer="31"/>
+<rectangle x1="0.62" y1="-0.4" x2="1.42" y2="0.36" layer="31"/>
+<rectangle x1="0.62" y1="-1.45" x2="1.42" y2="-0.69" layer="31"/>
+<wire x1="-1.6" y1="1.2" x2="-1.6" y2="1.55" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="1.55" x2="-1.25" y2="1.55" width="0.1" layer="21"/>
+<wire x1="-1.25" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
+<wire x1="1.2" y1="1.55" x2="1.55" y2="1.55" width="0.1" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.2" width="0.1" layer="21"/>
+<wire x1="1.55" y1="-1.25" x2="1.55" y2="-1.6" width="0.1" layer="21"/>
+<wire x1="1.55" y1="-1.6" x2="1.2" y2="-1.6" width="0.1" layer="21"/>
+<text x="-1.6256" y="1.7272" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-1.7526" y="-2.3876" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ENS160">
+<description>&lt;h3&gt;ENS160&lt;/h3&gt;</description>
+<pin name="VDD" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="VDDIO" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@8" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="!INT!" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="!CS!" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PICO/SDA" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="POCI/ADDR" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SCLK/SCL" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="GND@9" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ENS-160" prefix="U">
+<description>&lt;h3&gt;ScioSense Indoor Air Quality Sensor - ENS160 &lt;/h3&gt;
+
+&lt;p&gt;The ENS160 is a digital multi-gas sensor solution, based on metal oxide (MOX) technology
+with four sensor elements.
+The independent hotplate control allows the detection of a wide range of volatile organic
+compounds (VOCs) including ethanol, toluene, hydrogen and oxidizing gases with superior
+sensitivity. The ENS160 supports intelligent algorithms to process raw sensor measurements
+on-chip. These algorithms calculate CO2-equivalents, TVOC, air quality indices (AQIs) and
+perform humidity and temperature compensation, as well as baseline management, all on
+chip. &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ENS160" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA-9">
+<connects>
+<connect gate="G$1" pin="!CS!" pad="P7"/>
+<connect gate="G$1" pin="!INT!" pad="P6"/>
+<connect gate="G$1" pin="GND@8" pad="P8"/>
+<connect gate="G$1" pin="GND@9" pad="P9"/>
+<connect gate="G$1" pin="PICO/SDA" pad="P1"/>
+<connect gate="G$1" pin="POCI/ADDR" pad="P3"/>
+<connect gate="G$1" pin="SCLK/SCL" pad="P2"/>
+<connect gate="G$1" pin="VDD" pad="P4"/>
+<connect gate="G$1" pin="VDDIO" pad="P5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-17100" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24726,7 +24739,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
-<part name="U2" library="ENS160" deviceset="ENS-160" device=""/>
+<part name="U2" library="SparkFun-Sensors" deviceset="ENS-160" device=""/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_AP2127" device="K-1.8V" value="AP2127K-1.8V"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -24793,11 +24806,11 @@ VDDIO Range: 1.71V - 3.6V</text>
 <wire x1="38.1" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="97"/>
-<text x="45.72" y="93.98" size="1.778" layer="97" font="vector" align="center">VDD</text>
+<text x="45.72" y="93.98" size="1.778" layer="97" font="vector" ratio="15" align="center">VDD</text>
 <text x="45.72" y="88.9" size="1.778" layer="97" font="vector" align="center">GND</text>
 <text x="45.72" y="83.82" size="1.778" layer="97" font="vector" align="center">OPEN</text>
 <text x="66.04" y="88.9" size="1.778" layer="97" font="vector" align="center">0x52</text>
-<text x="66.04" y="93.98" size="1.778" layer="97" font="vector" align="center">0x53 (Default)</text>
+<text x="66.04" y="93.98" size="1.778" layer="97" font="vector" ratio="15" align="center">0x53 (Default)</text>
 <text x="66.04" y="83.82" size="1.778" layer="97" font="vector" align="center">Undefined</text>
 <wire x1="35.56" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="53.34" y1="99.06" x2="52.578" y2="99.822" width="0.1524" layer="97" style="dashdot"/>

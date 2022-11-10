@@ -5965,67 +5965,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="ENS160">
-<packages>
-<package name="LGA-9">
-<description>&lt;h3&gt;LGA-9&lt;/h3&gt;
-&lt;p&gt;Mechanical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pad Size: .9mm x .85mm &lt;/li&gt;
-&lt;li&gt;Pin count: 9 &lt;/li&gt;
-&lt;li&gt;Pin pitch: 1.05mm&lt;/li&gt;
-&lt;li&gt;Package Size: 3mm x 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-7-ENS160-Datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.6" y1="1.55" x2="-1.6" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="-1.6" x2="1.55" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="1.55" y1="-1.6" x2="1.55" y2="1.55" width="0.1" layer="51"/>
-<wire x1="1.55" y1="1.55" x2="-1.6" y2="1.55" width="0.1" layer="51"/>
-<circle x="-1.87" y="1.905" radius="0.25164375" width="0" layer="21"/>
-<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
-<rectangle x1="-1.535" y1="0.605" x2="-0.635" y2="1.455" layer="29"/>
-<rectangle x1="-1.535" y1="-0.445" x2="-0.635" y2="0.405" layer="29"/>
-<rectangle x1="-1.535" y1="-1.495" x2="-0.635" y2="-0.645" layer="29"/>
-<rectangle x1="-0.485" y1="0.605" x2="0.415" y2="1.455" layer="29"/>
-<rectangle x1="-0.485" y1="-0.445" x2="0.415" y2="0.405" layer="29"/>
-<rectangle x1="-0.485" y1="-1.495" x2="0.415" y2="-0.645" layer="29"/>
-<rectangle x1="0.565" y1="0.605" x2="1.465" y2="1.455" layer="29"/>
-<rectangle x1="0.565" y1="-0.445" x2="1.465" y2="0.405" layer="29"/>
-<rectangle x1="0.565" y1="-1.495" x2="1.465" y2="-0.645" layer="29"/>
-<rectangle x1="-1.48" y1="0.65" x2="-0.68" y2="1.41" layer="31"/>
-<rectangle x1="-1.48" y1="-0.4" x2="-0.68" y2="0.36" layer="31"/>
-<rectangle x1="-1.48" y1="-1.45" x2="-0.68" y2="-0.69" layer="31"/>
-<rectangle x1="-0.43" y1="0.65" x2="0.37" y2="1.41" layer="31"/>
-<rectangle x1="-0.43" y1="-0.4" x2="0.37" y2="0.36" layer="31"/>
-<rectangle x1="-0.43" y1="-1.45" x2="0.37" y2="-0.69" layer="31"/>
-<rectangle x1="0.62" y1="0.65" x2="1.42" y2="1.41" layer="31"/>
-<rectangle x1="0.62" y1="-0.4" x2="1.42" y2="0.36" layer="31"/>
-<rectangle x1="0.62" y1="-1.45" x2="1.42" y2="-0.69" layer="31"/>
-<wire x1="-1.6" y1="1.2" x2="-1.6" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="1.55" x2="-1.25" y2="1.55" width="0.1" layer="21"/>
-<wire x1="-1.25" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
-<wire x1="1.2" y1="1.55" x2="1.55" y2="1.55" width="0.1" layer="21"/>
-<wire x1="1.55" y1="1.55" x2="1.55" y2="1.2" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.25" x2="1.55" y2="-1.6" width="0.1" layer="21"/>
-<wire x1="1.55" y1="-1.6" x2="1.2" y2="-1.6" width="0.1" layer="21"/>
-<text x="-1.6256" y="1.7272" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
-<text x="-1.7526" y="-2.3876" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
-<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-IC-Power">
 <description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
 In this library you'll find anything that has to do with power delivery, or making power supplies.
@@ -6103,6 +6042,80 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LGA-9">
+<description>&lt;h3&gt;LGA-9&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: .9mm x .85mm &lt;/li&gt;
+&lt;li&gt;Pin count: 9 &lt;/li&gt;
+&lt;li&gt;Pin pitch: 1.05mm&lt;/li&gt;
+&lt;li&gt;Package Size: 3mm x 3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-7-ENS160-Datasheet.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-1.6" y1="1.55" x2="-1.6" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.6" x2="1.55" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-1.6" x2="1.55" y2="1.55" width="0.1" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="-1.6" y2="1.55" width="0.1" layer="51"/>
+<circle x="-1.87" y="1.905" radius="0.25164375" width="0" layer="21"/>
+<smd name="P1" x="-1.085" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P2" x="-1.085" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P3" x="-1.085" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P4" x="-0.035" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P9" x="-0.035" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P8" x="-0.035" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P5" x="1.015" y="-1.07" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P6" x="1.015" y="-0.02" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<smd name="P7" x="1.015" y="1.03" dx="0.9" dy="0.85" layer="1" stop="no" cream="no"/>
+<rectangle x1="-1.535" y1="0.605" x2="-0.635" y2="1.455" layer="29"/>
+<rectangle x1="-1.535" y1="-0.445" x2="-0.635" y2="0.405" layer="29"/>
+<rectangle x1="-1.535" y1="-1.495" x2="-0.635" y2="-0.645" layer="29"/>
+<rectangle x1="-0.485" y1="0.605" x2="0.415" y2="1.455" layer="29"/>
+<rectangle x1="-0.485" y1="-0.445" x2="0.415" y2="0.405" layer="29"/>
+<rectangle x1="-0.485" y1="-1.495" x2="0.415" y2="-0.645" layer="29"/>
+<rectangle x1="0.565" y1="0.605" x2="1.465" y2="1.455" layer="29"/>
+<rectangle x1="0.565" y1="-0.445" x2="1.465" y2="0.405" layer="29"/>
+<rectangle x1="0.565" y1="-1.495" x2="1.465" y2="-0.645" layer="29"/>
+<rectangle x1="-1.48" y1="0.65" x2="-0.68" y2="1.41" layer="31"/>
+<rectangle x1="-1.48" y1="-0.4" x2="-0.68" y2="0.36" layer="31"/>
+<rectangle x1="-1.48" y1="-1.45" x2="-0.68" y2="-0.69" layer="31"/>
+<rectangle x1="-0.43" y1="0.65" x2="0.37" y2="1.41" layer="31"/>
+<rectangle x1="-0.43" y1="-0.4" x2="0.37" y2="0.36" layer="31"/>
+<rectangle x1="-0.43" y1="-1.45" x2="0.37" y2="-0.69" layer="31"/>
+<rectangle x1="0.62" y1="0.65" x2="1.42" y2="1.41" layer="31"/>
+<rectangle x1="0.62" y1="-0.4" x2="1.42" y2="0.36" layer="31"/>
+<rectangle x1="0.62" y1="-1.45" x2="1.42" y2="-0.69" layer="31"/>
+<wire x1="-1.6" y1="1.2" x2="-1.6" y2="1.55" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="1.55" x2="-1.25" y2="1.55" width="0.1" layer="21"/>
+<wire x1="-1.25" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.25" width="0.1" layer="21"/>
+<wire x1="1.2" y1="1.55" x2="1.55" y2="1.55" width="0.1" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.2" width="0.1" layer="21"/>
+<wire x1="1.55" y1="-1.25" x2="1.55" y2="-1.6" width="0.1" layer="21"/>
+<wire x1="1.55" y1="-1.6" x2="1.2" y2="-1.6" width="0.1" layer="21"/>
+<text x="-1.6256" y="1.7272" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-1.7526" y="-2.3876" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-1.7272" y1="1.6764" x2="-1.7272" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="-1.7272" y1="-1.7272" x2="1.6764" y2="-1.7272" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="-1.7272" x2="1.6764" y2="1.6764" width="0.1524" layer="39"/>
+<wire x1="1.6764" y1="1.6764" x2="-1.7272" y2="1.6764" width="0.1524" layer="39"/>
 </package>
 </packages>
 </library>
@@ -6366,7 +6379,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$20" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="19.05" y="22.86" smashed="yes"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="2.6162" y="17.3482" smashed="yes"/>
 <element name="U$21" library="top" package="PWR9" value="" x="21.209" y="18.034" smashed="yes" rot="R90"/>
-<element name="U2" library="ENS160" package="LGA-9" value="ENS-160" x="12.7" y="12.7" smashed="yes">
+<element name="U2" library="SparkFun-Sensors" package="LGA-9" value="ENS-160" x="12.7" y="12.7" smashed="yes">
 <attribute name="NAME" x="11.0744" y="14.4272" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="IC-17100" x="12.7" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="10.9474" y="10.3124" size="0.6096" layer="27" font="vector" ratio="20"/>
